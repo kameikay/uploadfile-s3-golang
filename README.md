@@ -57,8 +57,8 @@ func init() {
 		&aws.Config{
 			Region: aws.String("sa-east-1"), // Verificar se é o mesmo que está setado na AWS
 			Credentials: credentials.NewStaticCredentials(
-				"AKIA26VCOH6JKTDDYPHB",                     // Access key ID
-				"FP96HP2Fp5WCGf0z0UqwC4mv9XtMeS99kqEGa7pf", // Secret access key
+				"ACCESS_KEY_ID",                     // Access key ID
+				"SECRET_ACCESS_KEY", // Secret access key
 				"",
 			),
 		},
